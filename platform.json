@@ -1,0 +1,53 @@
+{
+  "name": "nxplpc-arduino-lpc5528",
+  "title": "NXP Arduino LPC5528",
+  "description": "The NXP LPC is a family of 32-bit microcontroller integrated circuits by NXP Semiconductors. The LPC chips are grouped into related series that are based around the same 32-bit ARM processor core, such as the Cortex-M4F, Cortex-M3, Cortex-M0+, or Cortex-M0. Internally, each microcontroller consists of the processor core, static RAM memory, flash memory, debugging interface, and various peripherals.",
+  "url": "http://www.nxp.com/products/microcontrollers/",
+  "homepage": "http://platformio.org/platforms/nxplpc",
+  "license": "Apache-2.0",
+  "engines": {
+    "platformio": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p3p/pio-nxplpc-arduino-lpc5528.git"
+  },
+  "version": "1.0.2",
+  "packageRepositories": [
+    "https://raw.githubusercontent.com/p3p/pio-nxplpc-arduino-lpc5528/release/manifest.json",
+    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+    "http://dl.platformio.org/packages/manifest.json"
+  ],
+  "frameworks": {
+    "arduino": {
+      "package": "framework-arduino-lpc5528",
+      "script": "builder/frameworks/arduino-lpc5528.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "version": ">=1.60301.0,<1.80000.0",
+      "optionalVersions": [
+        "~1.60301.0",
+        "~1.80201.0",
+        "~1.90201.0"
+      ]
+    },
+    "framework-arduino-lpc5528": {
+      "type": "framework",
+      "optional": true,
+      "version": ">=0.2.2"
+    },
+    "tool-openocd": {
+      "type": "debugger",
+      "optional": true,
+      "version": "~1.1000.0"
+    },
+    "tool-pyocd": {
+      "type": "debugger",
+      "optional": true,
+      "version": "~0.801.0"
+    }
+  }
+}

@@ -1,11 +1,7 @@
 {
-    "framework-arduino-lpc1768": [
+    "framework-arduino-lpc5528": [
         {
-            "url": "https://github.com/p3p/pio-framework-arduino-lpc176x/archive/0.2.3.zip",
-            "version": "0.2.3"
-        },
-        {
-            "url": "https://github.com/p3p/pio-framework-arduino-lpc176x/archive/0.2.2.zip",
+            "url": "https://github.com/ellensp/framework-arduino-lpc5528/archive/0.2.2.zip",
             "version": "0.2.2"
         }
     ]

@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/p3p/pio-nxplpc-arduino-lpc5528.git"
+    "url": "https://github.com/ellensp/nxplpc-arduino-lpc5528.git"
   },
   "version": "1.0.2",
   "packageRepositories": [
-    "https://raw.githubusercontent.com/p3p/pio-nxplpc-arduino-lpc5528/release/manifest.json",
+    "https://raw.githubusercontent.com/ellensp/nxplpc-arduino-lpc5528/main/manifest.json",
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json"
   ],

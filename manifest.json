@@ -1,8 +1,8 @@
 {
     "framework-arduino-lpc5528": [
         {
-            "url": "https://github.com/ellensp/framework-arduino-lpc5528/archive/0.2.4.zip",
-            "version": "0.2.4"
+            "url": "https://github.com/ellensp/framework-arduino-lpc5528/archive/0.2.5.zip",
+            "version": "0.2.5"
         }
     ]
 }
